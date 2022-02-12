@@ -50,13 +50,13 @@ p {
     font-size: 16px;
 }
 
+/* Remove the source of the picture to the html to reduce the dependency on the styling */
 #hero-image {
-    height: 800px;
-    width: 100%;
+    /* Set a specific width instead in the image*/
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    /* Position and center the image to scale nicely on all screens */
     background-position: center;
+    background-size: cover;
 }
 
 .float-left {
