@@ -19,8 +19,8 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-header h1 .seo {
+/* change the corresponding css as we deleted the class seo */
+header h1 {
     color: #d9dcd6;
 }
 /* Change the corresponding css to nav */
