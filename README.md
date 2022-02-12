@@ -1,46 +1,40 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
+## Purpose of the Assignment
+
 One of the most common tasks for front-end and junior developers is to take existing code and refactor it to either meet a certain set of standards or implement a new technology. Web accessibility is an increasingly important consideration for businesses, ensuring that people with disabilities and/or socio-economic restrictions have access to their website. Accessible websites are better optimized for search engines, and help companies avoid litigation.
 
-For this week's Challenge, your task is to refactor an existing webpage to make it accessible and to improve SEO. It's important to follow the Scout Rule when working with an existing codebase: Always leave the code a little cleaner than you found it. 
+I will build a codebase for a marketing agency that follows accessibility standards so that the site is optimized for search engines
 
-To impress the imaginary client for this Challenge, you should go the extra mile and improve their codebase for long-term sustainability. Ensure that all links are functioning correctly and clean up the CSS to make it more efficient, such as by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
+## What I did
 
-Remember when working with a client, it is essential to read the acceptance criteria for guidance and clarity on what the client expects, especially when asked to make a judgment call, such as when an icon needs an accessible alt tag and when it is okay to leave it blank. 
+### 01 Semantic HTML Elements in The Source Code
 
-To successfully complete this week's Challenge, all acceptance criteria must be fully addressed!
+- Changed the divs to ```header```, ```nav```, ```section```, ```aside```, ```footer```, ```figure```, etc. to make the elements semantic
+- Removed the unnecessary  ```span``` in the h1 to make it clear
 
-## User Story
+### 02 The Structure of The HTML Elements Follow a Logical Structure Independent of Styling and Positioning
 
-```
-AS A marketing agency
-I WANT a codebase that follows accessibility standards
-SO THAT our site is optimized for search engines
-```
+- Changed the html and then changed the corresponding css rule to make it applies correctly
+- Changed the improper classes and ids in the html to make it more specific
+- Moved the link to the hero image from css to html and correctly set the size
 
-## Acceptance Criteria
+### 03 The Icon and Image Elements Have alt Attributes
 
-```
-GIVEN a webpage that meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN I find that they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
-```
+- Added alternative text attribute in every img element, including hero image
 
-## Review
+### 04 The Heading Attributes Fall in Sequential Order
 
-You are required to submit the following for review:
+- Changed the h2 in footer to h4
+- Reasoning: I changed h2 to h4 for the header in footer because I think the header in the footer is not as important as the header in aside, which is h3. And they all are not as important as the header in the section, which is h2
 
-* The URL of the deployed application.
+### 05 The Title Element is Concise and Descriptive
 
-* The URL of the GitHub repository. Give the repository a unique name and include a professional README describing the project.
+- Changed the title to a decriptive and concise title __Horiseon official website__
 
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Screenshot
+
+![How the webpage look like](./assets/images/screencapture-file-Users-chenwang-Desktop-msu-BootcampChallenge1-index-html-2022-02-12-12_42_55.png)
+
+## Link
+The link to my deployed website is [here](https://wangheer2010.github.io/BootcampChallenge1/)
